@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;      
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clear{
+
+}
+.container {
+    position: relative;
+    width: 100%;
+}
+.logo {
+    
+    margin-left: 21px;
+    display: inline-block;
+}
+img.logo-img {
+    margin-left: 144px;
+    max-width: 330px;
+    max-height: 86px;
+}
+.award{
+    display: inline-block;
+    margin: 9px 68px;
+}
+.nav li:hover a {
+    color: blue;
+}
+a {
+    text-decoration: none;
+    color: #262626;
+    font-size:14px;
+}
+.input {
+    position:absolute;
+    display: inline-block;
+    top:32px;
+    
+}
+
+i.sign-in.ti-user {
+    font-size: 15px;
+    opacity: 0.8;
+}
+.input .contact:hover a {
+    opacity: 0.6;
+}
+.contact {
+    margin-bottom: 5px;
+    text-align: right;
+}
+i.contact.ti-email {
+    margin-right: 13px;
+    opacity: 0.8;
+    font-size: 15px;
+}
+.search-btn {
+    box-shadow: 0.3px 0.3px 0.3px 0.3px rgb(0 0 0 / 30%);
+    background-color: #f2b002;
+    line-height: 24px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 3px;
+    padding: 0px 24px;
+    margin-right: 3px;
+    cursor: pointer;
+}
+.ti-search {
+    right: 0;
+    font-size:14px;
+    color: #000;
+    
+}
+.search-container {
+    position: relative;
+}
+input.search {
+    background: url(https://www.google.com/cse/static/images/1x/vi/branding.png) left center no-repeat rgb(255, 255, 255);
+    border: 1px solid #000;
+    width: 339px;
+    height: 30px;
+    outline: none;
+}
+#nav{
+
+}
+i.ti-home {
+    padding-right: 30px;
+    font-size: 18px;
+    color: blue;
+}
+ul.nav {
+    background: #f2b002;
+    background-image: linear-gradient(to bottom, #f2b002, #f2b002);
+    font-weight: bold;
+    line-height: 100%;
+    height: 50px;
+    text-align: center;
+    margin-top: 10px;
+    color: #262626;
+}
+.nav > li {
+    position: relative;
+    padding:13px 15px;
+    border-right: 0.1px solid #ccc;
+    display: inline-block;
+    list-style-type: none;
+}
+ul.sub-nav1 {
+    position: absolute;
+    list-style-type: none;
+}
+
+li .sub-nav1 {
+    margin-top: 17px;
+}
+.sub-nav1 > li {
+    background-color: #ccc;
+}
+.ti-star {
+    font-size: 20px;
+    padding-right: 4px;
+    color: #FBCB0A;
+}
+marquee {
+    background-color: #ebebeb;
+}
+h2 {
+    font-weight: 500;
+    width: 100%;
+    line-height: 100%;
+    font-variant: small-caps;
+    font-style: italic;
+    color: red;
+    padding: 2px 0px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+img.slider-img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: -4px;
+}
+.content-container {
+    height: 1000px;
+    background: url(	http://thpt-lehongphong-nd.edu.vn/Styles/img/bg_LHP_Main.png) repeat-x;
+    width: 100%;
+    display: inline-block;
+    border-top: 5px solid #d4d4d4;
+}
+.content-right{
+
+}
+.content-left {
+    display: flex;
+    flex-wrap: wrap;
+    clear: both;
+    margin-top: 60px;
+    margin-left: 125px;
+    /* display: flex; */ 
+}
+.content-left img{
+    width: 450px;
+    height:270px;
+
+}
+.annouce img{  
+    max-width:120px;
+    height: 70px;
+}
+.content-left a {
+    color: #0053b1;
+    font-size: 18px;
+}
+.content-left h1 {
+        width: 324px;
+        margin-left: 25px;
+        line-height: 1.4;
+}
+
+h4.title {
+    margin: 10px;
+    font-size: 14px;
+    font-weight: normal;
+    display: inline-block;
+}
+h3.notyfi {
+    /* float: left; */
+    font-size: 16px;
+    color: #0053b1;
+    /* display: flex; */
+    font-weight: bold;
+    margin: 10px;
+    padding: 0px;
+    text-decoration: underline;
+    align-items: center;
+}
+.annouce {
+        display: flex;
+        width: 340px;
+        /* display: inline-block; */
+        margin: 10px;
+}
+hr { 
+    border-style: inset;
+    border-width: 1px;
+}
+a.information-title {
+    /* color: #3e3e3e; */
+    display: inline;
+    /* float: left; */
+    font-family: Arial;
+    font-size: 14px;
+    text-align: justify;
+    width: 100%;
+    margin-top: 10px;
+    line-height: 20px;
+    font-weight: bold;
+}
+img.img-information {
+    width: 180px;
+    height: 108px;
+}
+a.information-title {
+}
+.information1 {
+    margin-right: 22px; 
+    float: left;
+    width: 180px;
+}
+.big-information {
+    margin-top: -230px; 
+}
